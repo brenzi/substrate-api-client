@@ -57,7 +57,7 @@ sp-storage = { default-features = false, features = ["serde"], version = "21.0.0
 sp-version = { default-features = false, features = ["serde"], version = "36.0.0" }
 
 # substrate std / wasm only
-frame-support = { optional = true, version = "35.0.0" }
+frame-support = { optional = true, version = "36.0.0" }
 
 # local deps
 ac-compose-macros = { path = "compose-macros", version = "0.18", default-features = false }
@@ -67,7 +67,7 @@ ac-primitives = { path = "primitives", version = "0.18", default-features = fals
 
 [dev-dependencies]
 ac-node-api = { path = "node-api", version = "0.18", features = ["mocks"] }
-kitchensink-runtime = { git = "https://github.com/paritytech/polkadot-sdk.git", branch = "release-polkadot-v1.13.0" }
+#kitchensink-runtime = { git = "https://github.com/paritytech/polkadot-sdk.git", branch = "release-crates-io-v1.14.0" }
 scale-info = { version = "2.1.1", features = ["derive"] }
 test-case = "3.1.0"
 
